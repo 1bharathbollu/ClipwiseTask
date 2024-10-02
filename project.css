@@ -1,0 +1,209 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: linear-gradient(135deg, #A0E3FF, #FBD3E9);
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.header-icons span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background: linear-gradient(135deg, #A0E3FF, #FBD3E9);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #007BFF;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 2px solid #007BFF;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.featured-product {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.product-card {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-info .tag {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+}
+
+.product-info h2 {
+    margin: 10px 0;
+    font-size: 1.4em;
+}
+
+.price {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.buy-now {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-grid {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.filter {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.filter select {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.grid .product-card {
+    width: 250px;
+}
+
+.view-more {
+    margin-top: 40px;
+    padding: 12px 30px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deal {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #FBD3E9, #A0E3FF);
+    text-align: center;
+}
+
+.deal h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.deal .price {
+    font-size: 2em;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.new-price {
+    color: #FF6F61;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
